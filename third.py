@@ -11,8 +11,6 @@ def count_letter_in_string(string, letter):
       count += 1
   return count
 
-#print(count_letter_in_string('hello', 'l'))
-
 class MyTest(unittest.TestCase):
     def test_string_input_was_given(self):
         self.assertEqual(count_letter_in_string('hello', 'l'), 2)

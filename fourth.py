@@ -59,8 +59,8 @@ class SpaceX:
 
     def refill_all(self):
         x = self.addRocket(self.rocket)
-        rocket1.refill()
-        rocket2.refill()
+        x = Rocket()
+        x.refill()
 
 spacex1 = SpaceX(100)
 print(spacex1.addRocket('falcon1'))
