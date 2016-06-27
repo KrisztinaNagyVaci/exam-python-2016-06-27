@@ -58,20 +58,17 @@ class SpaceX:
         return allRockets
 
     def refill_all(self):
-        self.rocket = rocket
+        x = self.addRocket(self.rocket)
         rocket1.refill()
         rocket2.refill()
 
-# it should refill all of its rockets with fuel and substract the needed fuel from the storage
-
-
 spacex1 = SpaceX(100)
 print(spacex1.addRocket('falcon1'))
-#spacex1.refill_all()
+print(spacex1.refill_all())
 
 spacex2 = SpaceX(100)
 print(spacex2.addRocket('falcon9'))
-#spacex2.refill_all()
+print(spacex2.refill_all())
 
 # It should have 3 methods:
 #
